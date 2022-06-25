@@ -10,18 +10,10 @@ import ru.vsu.cs.util.SwingUtils;
 
 public class Program {
 
-    /**
-     * Основная функция программы
-     *
-     * @param args Параметры командной строки
-     * @throws Exception Любое исключение
-     */
     public static void main(String[] args) throws Exception {
         Locale.setDefault(Locale.ROOT);
 
-        //SwingUtils.setLookAndFeelByName("Windows");
-        //UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-        //SwingUtils.setDefaultFont(null, 20);
+
         UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
         SwingUtils.setDefaultFont("Arial", 20);
 
